@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,18 +7,16 @@ body, html {
   margin: 0;
   background-color: black;
 }
-.bg {
-  background-image: url("image.png");  /* This was ego's old design for a maintainence page. */
-  height: 80%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+div, img {
+  width: 100%;
+  pointer-events: none;
+  cursor: default;
 }
 </style>
 </head>
 <body>
-<div class="bg"></div>
+<div>
+<img src="https://picsum.photos/200/200">
+</div>
 </body>
 </html>
-
-
